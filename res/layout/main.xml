@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/start_recording"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Recording!" />
+
+    <Button
+        android:id="@+id/stop_recording"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop Recording!"
+        android:enabled="false" />
+
+    <Button
+        android:id="@+id/play_record_file"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play Record File!"
+        android:enabled="false" />
+
+    <Button
+        android:id="@+id/stop_play_record"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop Record File!"
+        android:enabled="false" />
+
+    
+    <Button
+        android:id="@+id/realtime_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Realtime play!" />
+    
+    <Button
+        android:id="@+id/stop_realtime_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop realtime play!" />
+
+    
+    <Button
+        android:id="@+id/openslrealtime_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OpenSLRealtime play!" />
+    
+    <Button
+        android:id="@+id/stop_openslrealtime_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop openSLRealtime play!" />
+</LinearLayout>
